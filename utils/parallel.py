@@ -7,7 +7,7 @@ import time
 
 MODEL_FUNCTIONS = {
     "openai": openai_response,
-    "gemini": gemini_response,
+    "gemini": geminiai_response,
     "llama": llama_response
 }
 def run_parallel(prompt, models):
