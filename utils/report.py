@@ -10,7 +10,7 @@ def generate_report(prompt:str,responses: dict):
     for model,output in responses.items():
         rows.append({
             "Model": model,
-            "Prompt": promt,
+            "Prompt": prompt,
             "Response": output,
             "Timestamp": datetime.now().strftime
             ("%Y-%m-%d %H:%M:%S")
