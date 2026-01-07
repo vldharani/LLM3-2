@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-def gemini_response(prompt,models):
+def geminiai_response(prompt,models):
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         return " GEMINI_API_KEY not found"
