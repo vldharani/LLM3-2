@@ -1,11 +1,11 @@
 
-from models.chatgpt_model import chatgpt_response
-from models.gemini_model import gemini_response
+from models.chatgpt_model import openai_response
+from models.geminiai_model import geminiai_response
 from models.llama_model import llama_response
 
 MODEL_MAP = {
-    "chatgpt": chatgpt_response,
-    "gemini": gemini_response,
+    "chatgpt": openai_response,
+    "gemini": geminiai_response,
     "llama": llama_response
 }
 
