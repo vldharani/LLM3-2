@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+data/metrics/*.csv
+data/comparison_reports/*.csv
+# Python virtual environment
+llm/
+
