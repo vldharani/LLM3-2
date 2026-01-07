@@ -1,5 +1,5 @@
 
-from models.chatgpt_model import openai_response
+from models.openai_model import openai_response
 from models.geminiai_model import geminiai_response
 from models.llama_model import llama_response
 
