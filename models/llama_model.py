@@ -1,7 +1,7 @@
 from huggingface_hub import InferenceClient
 import os
 
-def llama_response(prompt: str) -> str:
+def llama_response(prompt,models):
     token = os.getenv("HF_API_KEY")
     if not token:
         return " HF_API_KEY not found"
