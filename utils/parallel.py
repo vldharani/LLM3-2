@@ -1,6 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor #instead of this we can use asynchronous but it only run single thread
 from models.openai_model import openai_response
-from models.geminiai_model import gemini_response
+from models.geminiai_model import geminiai_response
 from models.llama_model import llama_response
 from utils.metrics import log_metrics
 import time
