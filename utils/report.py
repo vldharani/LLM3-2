@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from datetime import datetime
 
-def generate_report(promt:str,responses: dict):
+def generate_report(prompt:str,responses: dict):
     os.makedirs("data/comparison_reports", exist_ok=True)
 
 
