@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-def openai_response(prompt: str) -> str:
+def openai_response(prompt,model):
     api_key = os.getenv("OPENAI_API_KEY")
 
     if not api_key:
